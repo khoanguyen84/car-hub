@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+*{
+  font-family: 'Manrope', sans-serif;
+}
+.logo-sm{
+  width: 118px;
+  height: 18px;
+}
+
+.btn-login{
+  min-width: 130px;
+  border-radius: 60px !important;
+  padding: 10px 30px !important;
+  color: #2B59FF !important;
+  border: 1px solid rgb(231, 217, 217) !important;
+}
+
+.btn-explore{
+  border-radius: 60px !important;
+  padding: 10px 30px !important;
+}
+
+.hero{
+  max-width: 90%;
+  float: right;
+}
+
+.card-image{
+  width: 90%;
+}
+
+.car-card{
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #F5F8FF;
+  border: 1px solid #F5F8FF;
+}
+.car-card:hover{
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid #F5F8FF;
+}
+
+.car-card-header{
+  padding: 10px 0px;
+  font-weight: 900;
+  font-size: larger;
+}
+
+.car-card-body{
+  padding: 20px 0px;
+}
+
+.icon{
+  max-height: 25px;
+  max-width: 25px
+}
