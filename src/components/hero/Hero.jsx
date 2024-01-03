@@ -1,4 +1,4 @@
-import hero from '../../../public/hero.png'
+import hero from '/hero.png'
 export default function Hero() {
     return (
         <div className="container mb-5">

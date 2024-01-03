@@ -1,4 +1,4 @@
-import logo from '../../../public/logo.svg'
+import logo from '/logo.svg'
 import { FaSignInAlt } from "react-icons/fa";
 export default function Navbar() {
     return (

@@ -1,4 +1,4 @@
-import logo from '../../../public/logo.svg'
+import logo from '/logo.svg'
 import { footerLinks } from '../../constants'
 
 export default function Footer() {
