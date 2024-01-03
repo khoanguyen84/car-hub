@@ -86,7 +86,9 @@ export default function HomePage() {
                                 </div>
                             ))
                         }
-
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center">
+                        <button className="btn btn-loadmore">Load more ...</button>
                     </div>
                 </section>
             </>
