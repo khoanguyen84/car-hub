@@ -17,7 +17,7 @@ export default function HomePage() {
         <MainLayout>
             <>
                 <div className="container">
-                    <h1 className="fw-bolder">Car Cataloge</h1>
+                    <h1 className="fw-bolder">Car Catalogue</h1>
                     <p>Explore out cars you might like</p>
                 </div>
                 <section className="search-filter container my-5">
@@ -81,7 +81,7 @@ export default function HomePage() {
                     <div className="row">
                         {
                             carList?.map((car) => (
-                                <div className="col-lg-3 col-md-3 col-sm-6 mb-4">
+                                <div className="col-lg-3 col-md-3 col-sm-6 mb-3">
                                     <CarCard car={car} />
                                 </div>
                             ))

@@ -33,7 +33,7 @@
 }
 
 .card-image{
-  width: 90%;
+  width: 100%;
 }
 
 .car-card{
@@ -41,7 +41,10 @@
   border-radius: 20px;
   background-color: #F5F8FF;
   border: 1px solid #F5F8FF;
-  min-height: 390px;
+  min-height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .car-card:hover{
   background-color: white;
@@ -50,13 +53,14 @@
 }
 
 .car-card-header{
-  padding: 10px 0px;
+  padding-top: 5px;
   font-weight: 900;
   font-size: larger;
+  min-height: 60px;
 }
 
 .car-card-body{
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 
 .icon{
